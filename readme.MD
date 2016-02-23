@@ -5,25 +5,19 @@ Shawn (dot) Hillyer (at) Gmail (dot) com
 Date: 10/08/2015
 Github.com/Soularpowered
 
-=====
-ABOUT
-=====
+# ABOUT
 This framework is to assist in quickly setting up a terminal-based,
 console interface program in C++. It includes a makefile which you should
 utilize to add any additional source files or header dependencies so that you can
 type make all, make default, make zip, etc., as appropriate.
 
-=======
-PURPOSE
-=======
+# PURPOSE
 This framework was developed incrementally as I progressed through a second
 "introduction to computer science" course. It was motived by the desire to reduce
 code reuse and minimize the amount of time I spent editing the main menu loop,
 creating a new "main" entry point, etc.
 
-======
-HOW-TO
-======
+# HOW-TO
 The main.menu file can be edited to type in plaintext menu options. This items
 will be automatically enumerated by the Menu class.
 
@@ -44,9 +38,7 @@ would likely want to create a new method in Client, like shapes_loop(), in which
 same loop logic, but instead call the submenu's methods rather than main menu.
 
 
-========
-USE NOTE
-========
+# USE NOTE
 I highly recommend you do NOT use this for your CS161 or CS162 assignments if you
 attend Oregon State University, although allow it to inspire you. The cheat detection
 will likely determine you copied my code. I used ALL parts and many variations of this
